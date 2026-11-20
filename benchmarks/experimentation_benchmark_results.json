@@ -1,0 +1,45 @@
+{
+  "cuped_benchmarks": {
+    "iterations": 100,
+    "mean_variance_reduction_pct": 41.53,
+    "sample_size_multiplier": 0.585,
+    "ci_width_reduction_pct": 23.59
+  },
+  "sequential_peeking_benchmarks": {
+    "simulations": 300,
+    "nominal_alpha": 0.05,
+    "naive_peeking_false_positive_rate": 0.21,
+    "sprt_false_positive_rate": 0.0333,
+    "alpha_inflation_ratio": 6.3
+  },
+  "sample_size_savings_by_mde": [
+    {
+      "relative_mde_pct": 3.0,
+      "required_n_standard": 1091,
+      "required_n_cuped": 638,
+      "samples_saved": 453,
+      "savings_pct": 41.5
+    },
+    {
+      "relative_mde_pct": 5.0,
+      "required_n_standard": 393,
+      "required_n_cuped": 230,
+      "samples_saved": 163,
+      "savings_pct": 41.5
+    },
+    {
+      "relative_mde_pct": 8.0,
+      "required_n_standard": 154,
+      "required_n_cuped": 90,
+      "samples_saved": 64,
+      "savings_pct": 41.6
+    },
+    {
+      "relative_mde_pct": 10.0,
+      "required_n_standard": 99,
+      "required_n_cuped": 58,
+      "samples_saved": 41,
+      "savings_pct": 41.4
+    }
+  ]
+}
